@@ -1,2 +1,2 @@
-Quête introduction spring boot utilisation des annotations
-solution 2
+Quête introduction spring boot utilisation du fichier XML
+solution 1

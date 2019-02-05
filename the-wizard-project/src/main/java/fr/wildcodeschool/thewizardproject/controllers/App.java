@@ -7,7 +7,7 @@ import fr.wildcodeschool.thewizardproject.models.WizardInterface;
 public class App {
     public void start() {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath*:applicationContext.xml");
-        WizardInterface myWizard = context.getBean( "gandalfId", WizardInterface.class );
+        WizardInterface myWizard = context.getBean( "theWizardInterface", WizardInterface.class );
         context.close();
         System.out.println("");
         System.out.println("******************");
